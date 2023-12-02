@@ -1,0 +1,22 @@
+.experiment {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+    .interface-menu {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        z-index: 100;
+    }
+
+    .render-container {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+}
