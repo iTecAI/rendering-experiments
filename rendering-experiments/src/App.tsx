@@ -45,7 +45,7 @@ function Main() {
                     style={{ cursor: "pointer" }}
                     onClick={() => nav("/exp/" + experiment.name)}
                 >
-                    <Title>{experiment.name}</Title>
+                    <Title order={4}>{experiment.name}</Title>
                 </Paper>
             ))}
         </SimpleGrid>
